@@ -11,9 +11,9 @@
 </p>
 <table class="table">
     <tr>
-        @*<th>
-            @Html.DisplayNameFor(model => model.User.UserName)
-        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.Username.UserName)
+        </th>
         <th>
             @Html.DisplayNameFor(model => model.ChatText)
         </th>
@@ -24,9 +24,9 @@
 
 @foreach (var item in Model) {
     <tr>
-        @*<td>
-            @Html.DisplayFor(modelItem => item.User.UserName)
-        </td>*@
+        <td>
+            @Html.DisplayFor(modelItem => item.Username.UserName)
+        </td>
         <td>
             @Html.DisplayFor(modelItem => item.ChatText)
         </td>
